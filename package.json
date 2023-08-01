@@ -1,0 +1,15 @@
+{
+  "name": "project-lds",
+  "version": "1.0.0",
+  "description": "Dental sergury website for  lusaka dental surgery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Sensenta Chilanzi",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
