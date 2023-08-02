@@ -1,6 +1,4 @@
 
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch tailwind code
-
 # Lusaka Dental Surgery Website Project
 
 ![Lusaka Dental Surgery Logo](https://example.com/lusaka-dental-surgery-logo.png)
@@ -53,6 +51,5 @@ For inquiries related to the Lusaka Dental Surgery website, please contact:
 * Arbit Designs: [contact@arbitdesigns.com](mailto:contact@arbitdesigns.com)
 
 Thank you for your interest in the Lusaka Dental Surgery website project!
-
 
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch tailwind code
