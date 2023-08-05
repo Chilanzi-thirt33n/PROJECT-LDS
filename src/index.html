@@ -44,7 +44,7 @@
     </title>
   </head>
 
-  <body class="m-0 font-['Roboto'] text-deepgreen bg-white">
+  <body class="m-0 font-['Roboto'] text-deepgreen bg-white scroll-smooth overflow-x-visible">
      <!-- first nav-->
       <div id="contact-one" class="bg-lightgreen flex flex-col lg:flex-row justify-evenly items-center p-4 w-full">
         <div class="md:p-3">
@@ -175,7 +175,7 @@
       </nav>
 
     <!-- hero  -->
-    <header class="bg-[url(images/backgrounds/mobile-bg.png)] md:bg-[url(images/backgrounds/desktop-bg.png)] bg-cover bg-center bg-no-repeat flex flex-col flex-nowrap mt-0 justify-center items-center ">
+    <header class="bg-darkgreen bg-[url(images/backgrounds/mobile-bg.png)] md:bg-[url(images/backgrounds/desktop-bg.png)] bg-cover bg-center bg-no-repeat flex flex-col flex-nowrap mt-0 justify-center items-center ">
      
       <!--hero section-->
       <div id="hero-section" class="w-full md:max-w-[1280px] flex flex-col flex-nowrap justify-center items-center py-10">
@@ -241,7 +241,7 @@
                     offer a wide range of services
                   </dd>
                 </dl>
-                <span class="w-[62.66px] h-[62.66px] md:w-[80px] ml-3 md:h-[80px] shadow-md rounded-xl flex justify-center items-center"
+                <span class="w-[62.66px] h-[62.66px] md:w-[80px] ml-3 md:h-[80px] shadow-md rounded-xl flex justify-center items-center border border-gray-200"
                   ><img src="images/icons/Hospital.png" alt="quality" class="w-[20px] h-[20px] md:w-[40px] md:h-[40px]"
                 /></span>
               </li>
@@ -254,7 +254,7 @@
                     with cutting-edge technology for top-quality care
                   </dd>
                 </dl>
-                <span class="w-[62.66px] h-[62.66px] md:w-[80px] ml-3 md:h-[80px] shadow-md rounded-xl flex justify-center items-center"
+                <span class="w-[62.66px] h-[62.66px] md:w-[80px] ml-3 md:h-[80px] shadow-md rounded-xl flex justify-center items-center border border-gray-200"
                   ><img src="images/icons/Geography.png" alt="International" class="w-[20px] h-[20px] md:w-[40px] md:h-[40px]"
                 /></span>
               </li>
@@ -267,7 +267,7 @@
                     smile care.
                   </dd>
                 </dl>
-                <span class="w-[62.66px] h-[62.66px] md:w-[80px] ml-3 md:h-[80px] shadow-md rounded-xl flex justify-center items-center"
+                <span class="w-[62.66px] h-[62.66px] md:w-[80px] ml-3 md:h-[80px] shadow-md rounded-xl flex justify-center items-center border border-gray-200"
                   ><img src="images/icons/Quality.png" alt="exceptional" class="w-[20px] h-[20px] md:w-[40px] md:h-[40px]"
                 /></span>
               </li>
@@ -281,53 +281,50 @@
             <li class="flex flex-col flex-nowrap justify-center items-center shrink-0">
               <img src="images/icons/Hospital-2.png" alt="rooms" class="h-[40px] w-[40px] md:h-[80px] md:w-[80px]"/>
               <dl class="flex flex-col flex-nowrap justify-center items-center shrink-0">
-                <dt>4 +</dt>
-                <dd>Dental Rooms</dd>
+                <dt class="font-bold text-[8.6px] md:text-xl">4 +</dt>
+                <dd class="text-[6.6px] md:text-lg">Dental Rooms</dd>
               </dl>
             </li>
             <li class="flex flex-col flex-nowrap justify-center items-center shrink-0">
               <img src="images/icons/Best Seller.png" alt="years" class="h-[40px] w-[40px] md:h-[80px] md:w-[80px]"/>
               <dl class="flex flex-col flex-nowrap justify-center items-center shrink-0">
-                <dt>14 +</dt>
-                <dd>years of Experience</dd>
+                <dt class="font-bold text-[8.6px] md:text-xl">14 +</dt>
+                <dd class="text-[6.6px] md:text-lg">years of Experience</dd>
               </dl>
             </li>
             <li class="flex flex-col flex-nowrap justify-center items-center shrink-0">
               <img src="images/icons/Medical Doctor.png" alt="staff" class="h-[40px] w-[40px] md:h-[80px] md:w-[80px]" />
               <dl class="flex flex-col flex-nowrap justify-center items-center shrink-0">
-                <dt>4 +</dt>
-                <dd>Doctors and staff</dd>
+                <dt class="font-bold text-[8.6px] md:text-xl">4 +</dt>
+                <dd class="text-[6.6px] md:text-lg">Doctors and staff</dd>
               </dl>
             </li>
           </ul>
         </div>
       </div>
       <!-- services Section-->
-      <div id="S-section-wrapper">
-        <div>
-          <h2>We Offer The best dental Services</h2>
-          <p>
-            Notwithstanding that the understanding of the great significance of
-            the content testing method provides a solid basis for The Analysis
-            of Confirmative Proportion (Rufus Guidry in The Book of the Specific
-            Action Result)
+      <div id="S-section-wrapper" class="w-full md:max-w-[1280px] flex flex-col flex-nowrap justify-center items-center py-2 md:py-5 ">
+        <div class="w-full  flex flex-col flex-nowrap justify-center items-center px-2 md:px-0">
+          <h2 class="font-['Open_Sans'] text-3xl md:text-4xl md:text-center text-left font-bold">We Offer The best dental Services</h2>
+          <p class="text-left md:text-center md:text-lg text-sm mb-6 md:w-3/4">
+            Discover exceptional dental care at Lusaka dental surgery. From preventive to specialized treatments, we prioritize your oral health and smile. Experience personalized, compassionate service today.
           </p>
           <!-- cards -->
-          <div id="card-wrapper">
-            <div id="cards">
+          <div id="card-wrapper" class="w-full flex flex-col gap-3 flex-nowrap justify-center items-center py-5 md:grid grid-cols-4 ">
+            <div id="cards" class="flex flex-col flex-nowrap md:grid grid-rows-2 grid-cols-2 gap-2 col-span-3">
               <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow"
+                class=" p-6 bg-white border border-gray-200 rounded-lg shadow flex flex-col justify-center items-start md:items-center "
               >
-                <span
-                  ><img src="images/icons/Trust.png" alt="consultation"
+                <span class="w-[62.66px] bg-lightgreen h-[62.66px] md:w-[80px] md:h-[80px] shadow-md rounded-xl flex justify-center items-center border border-gray-200"
+                  ><img src="images/icons/Trust.png" alt="consultation" class="w-[20px] h-[20px] md:w-[40px] md:h-[40px]"
                 /></span>
                 <span>
                   <h5
-                    class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 "
+                    class="mb-2 text-2xl font-['Open_Sans'] font-semibold tracking-tight text-deepgreen text-left md:text-center"
                   >
                     Consultation
                   </h5>
-                  <p class="mb-3 font-normal text-gray-500 ">
+                  <p class="mb-3 text-base font-normal text-deepgreen md:text-base text-sm">
                     Our consultation service provides personalized dental advice
                     and recommendations. Discuss your concerns with our
                     experienced professionals. Get expert insights for your
@@ -336,18 +333,18 @@
                 >
               </div>
               <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow"
+                class="  p-6 bg-lightgreen border border-gray-200 rounded-lg shadow flex flex-col justify-center items-start md:items-center "
               >
-                <span
-                  ><img src="images/icons/Tooth.png" alt="exodentia"
+                <span class="w-[62.66px] bg-white h-[62.66px] md:w-[80px] md:h-[80px] shadow-md rounded-xl flex justify-center items-center border border-gray-200"
+                  ><img src="images/icons/Tooth.png" alt="exodentia" class="w-[20px] h-[20px] md:w-[40px] md:h-[40px]"
                 /></span>
                 <span>
                   <h5
-                    class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 "
+                    class="mb-2 text-2xl font-['Open_Sans'] font-semibold tracking-tight text-deepgreen text-left md:text-center"
                   >
                     Exodentia surgery
                   </h5>
-                  <p class="mb-3 font-normal text-gray-500 ">
+                  <p class="mb-3 text-base font-normal text-deepgreen md:text-base text-sm">
                     Our exodentia surgery offers expert tooth extraction for
                     various dental needs. Skilled professionals and advanced
                     techniques ensure a smooth and painless procedure.
@@ -355,18 +352,18 @@
                 >
               </div>
               <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow "
+                class=" p-6 bg-lightgreen border border-gray-200 rounded-lg shadow flex flex-col justify-center items-start md:items-center  "
               >
-                <span
-                  ><img src="images/icons/Caduceus.png" alt="Restoration"
+                <span class="w-[62.66px] bg-white h-[62.66px] md:w-[80px] md:h-[80px] shadow-md rounded-xl flex justify-center items-center border border-gray-200"
+                  ><img src="images/icons/Caduceus.png" alt="Restoration" class="w-[20px] h-[20px] md:w-[40px] md:h-[40px]"
                 /></span>
                 <span>
                   <h5
-                    class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 "
+                    class="mb-2 text-2xl font-['Open_Sans'] font-semibold tracking-tight text-deepgreen text-left md:text-center"
                   >
                     Restoration dentistry
                   </h5>
-                  <p class="mb-3 font-normal text-gray-500 ">
+                  <p class="mb-3 text-base font-normal text-deepgreen md:text-base text-sm">
                     Revitalizes your smile with expert care and treatments. Our
                     skilled professionals use advanced techniques to repair
                     damaged or decayed teeth, restoring their functionality and
@@ -375,20 +372,20 @@
                 >
               </div>
               <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow "
+                class=" p-6 bg-white border border-gray-200 rounded-lg shadow flex flex-col justify-center items-start md:items-center "
               >
-                <span
+                <span class="w-[62.66px] bg-lightgreen h-[62.66px] md:w-[80px] md:h-[80px] shadow-md rounded-xl flex justify-center items-center border border-gray-200"
                   ><img
                     src="images/icons/Heart With Pulse.png"
-                    alt="Periodontics"
+                    alt="Periodontics" class="w-[20px] h-[20px] md:w-[40px] md:h-[40px]"
                 /></span>
                 <span>
                   <h5
-                    class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 "
+                    class="mb-2 text-2xl font-['Open_Sans'] font-semibold tracking-tight text-deepgreen text-left md:text-center"
                   >
                     Periodontics
                   </h5>
-                  <p class="mb-3 font-normal text-gray-500 ">
+                  <p class="mb-3 text-base font-normal text-deepgreen md:text-base text-sm">
                     treating gum-related issues and maintaining optimal oral
                     health. Our skilled periodontists offer expert care for gum
                     disease, gum recession, and dental implants.
@@ -397,49 +394,51 @@
               </div>
             </div>
             <!-- Opening hours card-->
-            <div>
-              <div>
-                <h5>Opening Hours</h5>
-                <p>
+            <div class="rounded-lg  bg-darkgreen p-6 grow shrink h-full flex flex-col flex-nowrap justify-evenly">
+              <div class="">
+                <h5 class="mb-2 text-2xl font-['Open_Sans'] font-semibold tracking-tight text-white text-left ">Opening Hours</h5>
+                <p class="mb-3 text-base font-normal text-lightgreen md:text-base text-sm">
                   Dental care can be daunting, but we make it easy. Convenient
                   hours, flexible scheduling, and a welcoming environment ensure
                   your comfort during your visit.
                 </p>
               </div>
-              <ul>
-                <li>
+              <ul class="flex flex-col w-full ">
+                <li class="flex flex-row flex-nowrap justify-between items-center text-lightgreen">
                   <p>Mon-Fri</p>
-                  <p>
-                    <img src="images/icons/Clock.png" alt="clock" />6am - 5pm
+                  <p class="flex flex-row flex-nowrap justify-between items-center text-lightgreen gap-2">
+                    <img src="images/icons/Clock.png" alt="clock"  />6am - 5pm
                   </p>
                 </li>
                 <hr />
-                <li>
+                <li class="flex flex-row flex-nowrap justify-between items-center text-lightgreen">
                   <p>Sat</p>
-                  <p>
+                  <p class="flex flex-row flex-nowrap justify-between items-center text-lightgreen gap-2">
                     <img src="images/icons/Clock.png" alt="clock" />6am - 1pm
                   </p>
                 </li>
                 <hr />
-                <li>
+                <li class="flex flex-row flex-nowrap justify-between items-center text-lightgreen">
                   <p>Sun</p>
-                  <p><img src="images/icons/Clock.png" alt="clock" />closed</p>
+                  <p class="flex flex-row flex-nowrap justify-between items-center text-lightgreen gap-2"><img src="images/icons/Clock.png" alt="clock" />closed</p>
                 </li>
-              </ul>
-
-              <a href=""
-                ><button>
-                  <img src="images/icons/Phone-2.png" alt="call" /> Book
+                 <hr />
+                <li class="self-center mt-5 rounded-md bg-white grow px-5 py-2 hover:animate-pulse hover:bg-activegreen"> <a href="" 
+                ><button class="flex flex-row flex-nowrap gap-3 grow text-sm md:text-xl">
+                  <img src="images/icons/Phone-2.png" alt="call" class="w-[20px] h-[20px] md:w-[27px] md:h-[27px]"/> Book
                   Appointment
                 </button></a
-              >
+              ></li>
+              </ul>
+
+             
             </div>
           </div>
         </div>
       </div>
       <!--about us section-->
-      <div id="Au-section-wrapper">
-        <div>
+      <div id="Au-section-wrapper" class="bg-lightgreen w-screen flex flex-col flex-nowrap justify-center items-center py-10 md:py-36 px-2 md:px-0">
+        <div class="w-full md:max-w-[1280px] flex flex-col flex-nowrap justify-center items-start py-2 md:py-5 ">
           <h2>About us</h2>
           <p>
             Lusaka Dental Surgery began its Services in March, 2009,Founded by a
@@ -468,80 +467,7 @@
           have made for patience and our cutting edge tools used for your dental
           needs.
         </p>
-        <div
-  data-te-lightbox-init
-  class="flex flex-col space-y-5 lg:flex-row lg:space-x-5 lg:space-y-0">
-  <div class="h-full w-full">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/1.webp"
-      data-te-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
-      alt="Table Full of Spices"
-      class="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
-  </div>
-  <div class="h-full w-full">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/2.webp"
-      data-te-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/2.webp"
-      alt="Winter Landscape"
-      class="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
-  </div>
-  <div class="h-full w-full">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.webp"
-      data-te-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/3.webp"
-      alt="View of the City in the Mountains"
-      class="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
-  </div>
-  <div class="h-full w-full">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.webp"
-      data-te-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/3.webp"
-      alt="View of the City in the Mountains"
-      class="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
-  </div>
-  <div class="h-full w-full">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.webp"
-      data-te-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/3.webp"
-      alt="View of the City in the Mountains"
-      class="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
-  </div>
-  <div class="h-full w-full">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.webp"
-      data-te-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/3.webp"
-      alt="View of the City in the Mountains"
-      class="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
-  </div>
-  <div class="h-full w-full">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.webp"
-      data-te-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/3.webp"
-      alt="View of the City in the Mountains"
-      class="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
-  </div>
-  <div class="h-full w-full">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.webp"
-      data-te-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/3.webp"
-      alt="View of the City in the Mountains"
-      class="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
-  </div>
-  <div class="h-full w-full">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.webp"
-      data-te-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/3.webp"
-      alt="View of the City in the Mountains"
-      class="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
-  </div>
-  <div class="h-full w-full">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.webp"
-      data-te-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/3.webp"
-      alt="View of the City in the Mountains"
-      class="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
-  </div>
-</div>
+ 
       </div>
       <!-- Review section -->
       <div id="R-section-wrapper">
@@ -659,9 +585,9 @@
     </main>
 
 <!--footer -->
-    <footer>
-      <div>
-        <div>
+    <footer class="bg-darkgreen">
+      <div class=" md:mx-7 py-5">
+        <div class="flex flex-col md:flex-row flex-nowrap justify-around items-center shrink-0">
           <a href=""
             ><img src="images/icons/logo-361x361.png" alt="footer logo"
           /></a>
